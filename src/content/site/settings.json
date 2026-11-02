@@ -8,23 +8,28 @@
   "columns": 3,
   "motionDefault": "full",
   "rightClickProtect": false,
-  "watermark": false,
-  "watermarkText": "",
+  "watermark": true,
+  "watermarkText": "WAZOW",
   "protectFromAI": false,
   "newsletterInFooter": false,
   "newsletterOnWork": false,
   "ogImage": "/assets/og-default.jpg",
-  "metaDescription": "",
-  "socialLinks": [],
+  "metaDescription": "This is the search description. Street art from Belgium",
+  "socialLinks": [
+    {
+      "label": "",
+      "url": "https://www.instagram.com/w.a.z.o.w/"
+    }
+  ],
   "supportLinks": [],
   "linksEnabled": false,
   "links": [],
-  "searchEnabled": false,
+  "searchEnabled": true,
   "cvAutoExhibitions": false,
   "commissionsMode": "form",
   "analyticsProvider": "none",
   "sellEnabled": false,
-  "availableForWork": false,
+  "availableForWork": true,
   "newsletterEnabled": false,
   "newsletterProvider": "netlify",
   "stockists": [],
@@ -51,7 +56,7 @@
       "letterSpacing": 0
     },
     "shape": {
-      "radius": 17,
+      "radius": 8,
       "borderWidth": 1,
       "shadows": "none"
     },
@@ -118,5 +123,7 @@
       "projects": false,
       "stockists": false
     }
-  }
+  },
+  "availableForWorkText": "Open for commission",
+  "availableForWorkCta": "/commissions/"
 }
