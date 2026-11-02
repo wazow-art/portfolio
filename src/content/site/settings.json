@@ -34,21 +34,21 @@
   "newsletterProvider": "netlify",
   "stockists": [],
   "design": {
-    "preset": "ember",
+    "preset": "frost",
     "color": {
-      "background": "#1a130e",
-      "surface": "#241a12",
-      "text": "#f3e7d6",
-      "muted": "#ac9576",
-      "accent": "#e0922f",
-      "accent2": "#c75b39",
-      "border": "#3a2c1f",
-      "link": "#e0922f",
-      "heading": "#f3e7d6"
+      "background": "#f3f5fb",
+      "surface": "#ffffff",
+      "text": "#29304a",
+      "muted": "#7a83a3",
+      "accent": "#2235c3",
+      "accent2": "#9a7bd0",
+      "border": "#dfe3f0",
+      "link": "#5a72c8",
+      "heading": "#29304a"
     },
     "type": {
       "headingFont": "Outfit",
-      "bodyFont": "Outfit",
+      "bodyFont": "Nunito Sans",
       "headingWeight": 600,
       "bodyWeight": 400,
       "baseSize": 17,
@@ -56,13 +56,13 @@
       "letterSpacing": 0
     },
     "shape": {
-      "radius": 8,
+      "radius": 0,
       "borderWidth": 1,
-      "shadows": "none"
+      "shadows": "soft"
     },
-    "density": "normal",
+    "density": "airy",
     "contentWidth": "normal",
-    "readingWidth": "comfortable",
+    "readingWidth": "relaxed",
     "motion": "smooth",
     "nav": {
       "layout": "side"
@@ -74,17 +74,17 @@
       "mode": "none"
     },
     "background": {
-      "type": "texture"
+      "type": "solid"
     },
     "thumb": {
       "fit": "cover",
       "hover": "lift"
     },
     "gallery": {
-      "layout": "grid",
+      "layout": "masonry",
       "size": "medium",
       "gutter": "normal",
-      "caption": "hover",
+      "caption": "below",
       "cardStyle": "card",
       "captionDetail": "full",
       "captionOverlay": "surface",
@@ -95,10 +95,10 @@
     },
     "lightbox": {
       "transition": "fade",
-      "zoom": true
+      "zoom": false
     },
     "hero": {
-      "enabled": true,
+      "enabled": false,
       "align": "left",
       "size": "small"
     },
@@ -112,13 +112,13 @@
     "pages": {
       "about": true,
       "contact": true,
-      "cv": false,
+      "cv": true,
       "press": true,
       "exhibitions": false,
       "news": false,
       "available": false,
-      "presskit": true,
-      "commissions": true,
+      "presskit": false,
+      "commissions": false,
       "shop": false,
       "projects": false,
       "stockists": false
