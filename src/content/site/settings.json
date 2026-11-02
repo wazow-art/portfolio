@@ -112,12 +112,12 @@
     "pages": {
       "about": true,
       "contact": true,
-      "cv": true,
+      "cv": false,
       "press": true,
       "exhibitions": false,
       "news": false,
-      "available": true,
-      "presskit": false,
+      "available": false,
+      "presskit": true,
       "commissions": true,
       "shop": false,
       "projects": false,
@@ -125,5 +125,7 @@
     }
   },
   "availableForWorkText": "Open for commission",
-  "availableForWorkCta": "/commissions/"
+  "availableForWorkCta": "/commissions/",
+  "commissionsIntro": "Little intro about working with Wazow",
+  "commissionsTerms": "Here is how it works collaborating with Wazow"
 }
